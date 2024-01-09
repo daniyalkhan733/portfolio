@@ -55,10 +55,10 @@ export default function Home() {
         </div>
       </section>
       <div className="dark:bg-gray-700">
-      <h1 className="flex justify-center w-full font-bold text-6xl text-white 	">Highlights</h1>
-
+      <h1 className="flex justify-center w-full font-bold text-6xl text-white p-10">Highlights</h1>
 
 <Slider/>
+
 
 
 

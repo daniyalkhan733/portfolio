@@ -3,12 +3,27 @@ import React from "react";
 export default function Home() {
   return (
     <div>
-{/* <img src="/images/logo.png" alt="Next.js" />
-
-<h1 className="text-5xl content-center flex justify-center	">This is Heading</h1>   */}
+<User name="Daniyal" />
+<User name="Khan" />
 
 
 
     </div>
   );
+}
+const User=(props)=>{
+
+return(
+<div>
+<h1> this is {props.name}</h1>
+
+
+</div>
+
+
+
+)
+
+
+
 }
