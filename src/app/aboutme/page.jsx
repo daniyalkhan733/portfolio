@@ -38,7 +38,7 @@ export default function Home() {
                   Daniyal{" "}
                 </h1>
                 <h1 className="pl-2 text-3xl font-bold border-l-8 border-blue-400 md:text-5xl dark:text-white">
-                  Introduction
+                  Intro
                 </h1>
               </div>
               <p className="mt-6 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
