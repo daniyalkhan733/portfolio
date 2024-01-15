@@ -50,7 +50,7 @@ export default function Home() {
                 captivating, user-centric realities. Innovation is their code,
                 and the web is their canvas.
               </p>
-            </div>
+<a href="/aboutme/resumepage">click for resume page</a>            </div>
           </div>
         </div>
       </section>
