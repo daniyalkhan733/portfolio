@@ -1,13 +1,13 @@
-"use client"
-import React from "react"
+"use client";
+import React from "react";
 // import Header from"../../../components/header"
-import Slider from "../../../components/Slider"
+import Slider from "../../../components/Slider";
 
 export default function Home() {
   return (
     <>
-    {/* <Header/> */}
-     <section className="flex items-center py-10 bg-stone-100 xl:h-screen font-poppins dark:bg-gray-800 ">
+      {/* <Header/> */}
+      <section className="flex items-center py-10 bg-stone-100 xl:h-screen font-poppins dark:bg-gray-800 ">
         <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
           <div className="flex flex-wrap ">
             <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
@@ -50,21 +50,24 @@ export default function Home() {
                 captivating, user-centric realities. Innovation is their code,
                 and the web is their canvas.
               </p>
-<a href="/aboutme/resumepage">click for resume page</a>            </div>
+              <button
+                type="button"
+                class="text-gray-900 bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 me-2 mb-2"
+                href="/roadmap"
+              >
+                <a href="/aboutme/resumepage">Preview CV</a>
+              </button>
+            </div>
           </div>
         </div>
       </section>
       <div className="dark:bg-gray-700">
-      <h1 className="flex justify-center w-full font-bold text-6xl text-white p-10">Highlights</h1>
+        <h1 className="flex justify-center w-full font-bold text-6xl text-white p-10">
+          Highlights
+        </h1>
 
-<Slider/>
-
-
-
-
-     
-        </div>
-        
+        <Slider />
+      </div>
     </>
   );
 }
