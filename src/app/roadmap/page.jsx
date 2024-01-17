@@ -1,13 +1,13 @@
+'use client'
 
 
 
-
-export default function Home() {
+export default function roadmap() {
     return (
 
 <>
 
-<h1>dkasnckjxz</h1>
+<h1 className="flex justify-center">This is Roadmap page</h1>
 </>
 
 
